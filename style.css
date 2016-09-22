@@ -10,9 +10,10 @@
 
 /* basic elements */
 html {
- margin: 0;
- padding: 0;
+ 	margin: 0;
+ 	padding: 0;
 }
+
 body{
 	font: 80% comic sans MS;
 	color: white;
@@ -21,24 +22,40 @@ body{
     1px -1px 0 #000,
     -1px 1px 0 #000,
     1px 1px 0 #000;
-	background-image: url("green-polygon.jpg");
-	background-repeat: no-repeat;
-	background-color: lightgreen;
+    background-image: url(geo-shapes-black-1280.jpg);
+    background-size: height:800;width:1280; 
+    background-position: center;
+    background-repeat: repeat;
 
 }
+
 p{
 	margin-top:0;
-	text-align: center;
+	text-align: justify;
 }
+
+.preamble,.participation,.benefits,.requirements,.explanation{
+	word-wrap: break-word;
+	position: relative;
+	float:right;
+    width: 800px;
+    
+}
+#zen-sumary{
+ width:180px; 
+ height:180px;
+ float:left;
+}
+
 a:link{
 	font-weight:bold;
 	text-decoration:none;
-	color: green;
+	color:grey;
 }
-}
+
 h3{
 	font: georgia;
-	letter-spacing: 5px;
+	letter-spacing: 2px;
 	text-align: center;
 }
 header h1{
@@ -47,3 +64,46 @@ header h1{
 	color: lightblue;
 }
 
+header h2{
+	background: transparent url("examsym1_zps40b9f322.png")
+	no-repeat top right;
+	margin: left 200px; 
+	display: block;
+	height: 250px;
+	width: 250px;
+	background-size: 100%;
+	border:5px solid black;
+	float: left;
+	text-align: center;
+
+}
+
+header{
+	padding-top: 20px;
+	height:87;
+	align:center;
+}
+
+.intro{
+	min-width: 20px;
+	width: 100%;
+}
+#zen-intro{
+	min-width: 20px;
+	width: 100%;
+
+.summary{
+ 	clear: both;
+ 	margin: 20px 20px 20px 10px;
+ 	width: 160px;
+ 	text-align: left; 
+}
+
+.summary p {
+	font: georgia;
+	text-align: left;
+}
+
+.preamble{
+	clear:right;
+	padding: 0px 10px 0 10px;
